@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+message HeartBeat {
+  int32 heart_beat_id = 1;
+  float machine_used_memory_percent = 2;
+  float machine_used_cpu_percent = 3;
+  
+  message ProcessParams {
+    string process_name = 1;
+    int32 process_id = 2;
+    string process_cmdline = 3;
+    int32 process_memory_bytes = 4;
+  }
+  repeated ProcessParams process_list = 4;
+}
+message Run_Process{
+	string process_path = 1;
+}
+
+message Print_Message{
+	string message_to_print = 1;
+}
+
+message Kill_Process{
+	int32 process_pid = 1;
+}
+
+message TestRunnerProtocol{
+
+	oneof OneOfSwitchSubMessage{
+		HeartBeat HB = 1;
+		Run_Process run_process = 2;
+		Kill_Process kill_process = 3;
+		Print_Message print_msg = 4;
+        }
+}

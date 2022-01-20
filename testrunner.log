@@ -1,0 +1,54 @@
+2021-03-10 16:37:24,264 :: INFO :: ###########  Starting the TestRunner programme ###########
+2021-03-10 16:37:24,264 :: INFO :: Every instance acts as a server connecting to all the computers declared in network_def.xml file
+and, at the same time as a client to all other instances. This creates a meshed network which is
+robust to single server losses. Instances of TestRunner can disconnect and reconnect on the fly to
+the meshed network as long as the network_def.xml is not changed 
+2021-03-10 16:37:24,264 :: INFO :: The Logging is prefixed with :
+       'M : ' for main thread messages
+       'S : ' for Server to clients messages ( there is one listening thread and one thread per client)
+       "C : ' for Client to server messages (one thread per connection)
+    
+    
+2021-03-10 16:37:24,264 :: INFO :: ########### end of welcome message ###########
+2021-03-10 16:37:24,702 :: INFO :: S : Listening Socket created
+2021-03-10 16:37:24,702 :: INFO :: S : Socket now listening
+2021-03-10 16:37:47,795 :: INFO :: C : Connection error printing traceback and retrying to connect
+
+2021-03-10 16:44:19,966 :: INFO :: ###########  Starting the TestRunner programme ###########
+2021-03-10 16:44:19,966 :: INFO :: Every instance acts as a server connecting to all the computers declared in network_def.xml file
+and, at the same time as a client to all other instances. This creates a meshed network which is
+robust to single server losses. Instances of TestRunner can disconnect and reconnect on the fly to
+the meshed network as long as the network_def.xml is not changed 
+2021-03-10 16:44:19,966 :: INFO :: The Logging is prefixed with :
+       'M : ' for main thread messages
+       'S : ' for Server to clients messages ( there is one listening thread and one thread per client)
+       "C : ' for Client to server messages (one thread per connection)
+    
+    
+2021-03-10 16:44:19,966 :: INFO :: ########### end of welcome message ###########
+2021-03-10 16:44:20,419 :: INFO :: S : Listening Socket created
+2021-03-10 16:44:20,419 :: INFO :: S : Socket now listening
+2021-03-10 16:44:43,483 :: INFO :: C : Connection error printing traceback and retrying to connect
+2021-03-10 16:44:43,483 :: INFO :: C : Connection error printing traceback and retrying to connect
+2021-03-10 16:44:43,483 :: INFO :: C : Connection error printing traceback and retrying to connect
+2021-03-10 16:45:06,564 :: INFO :: C : Connection error printing traceback and retrying to connect
+2021-03-10 16:45:06,564 :: INFO :: C : Connection error printing traceback and retrying to connect
+2021-03-10 16:45:06,564 :: INFO :: C : Connection error printing traceback and retrying to connect
+2021-03-10 16:59:32,665 :: INFO :: ###########  Starting the TestRunner programme ###########
+2021-03-10 16:59:32,665 :: INFO :: Every instance acts as a server connecting to all the computers declared in network_def.xml file
+and, at the same time as a client to all other instances. This creates a meshed network which is
+robust to single server losses. Instances of TestRunner can disconnect and reconnect on the fly to
+the meshed network as long as the network_def.xml is not changed 
+2021-03-10 16:59:32,665 :: INFO :: The Logging is prefixed with :
+       'M : ' for main thread messages
+       'S : ' for Server to clients messages ( there is one listening thread and one thread per client)
+       "C : ' for Client to server messages (one thread per connection)
+    
+    
+2021-03-10 16:59:32,665 :: INFO :: ########### end of welcome message ###########
+2021-03-10 16:59:33,087 :: INFO :: S : Listening Socket created
+2021-03-10 16:59:33,087 :: INFO :: S : Socket now listening
+2021-03-10 16:59:56,181 :: INFO :: C : Connection error printing traceback and retrying to connect
+2021-03-10 16:59:56,181 :: INFO :: C : Connection error printing traceback and retrying to connect
+
+2021-03-10 17:01:52,733 :: INFO :: C : Connection error printing traceback and retrying to connect

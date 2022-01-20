@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+    <agent agent_name="test-1" computer_name="comput-1" ip="192.168.1.10" port="32000" />
+    <agent agent_name="test-2" computer_name="comput-2" ip="192.168.1.11" port="32000" />
+	<agent agent_name="test-3" computer_name="comput-3" ip="192.168.1.12" port="32000" />
+
+</network>
